@@ -7,7 +7,7 @@ using namespace std;
 vector<int> wavePrint(vector<vector<int> > arr, int nRows, int mCols)
 {
     vector<int> ans;
-    
+    // IN THIS WE HAVE TRAVERSE ONLY IN COLN LIKE TOP TO BOTTOM OR BOTTOM TO TOP SO USE COLNS IN BELOW.
     for(int col=0; col<mCols; col++) {
         
         if( col&1 ) {
